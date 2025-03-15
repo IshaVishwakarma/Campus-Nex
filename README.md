@@ -1,70 +1,77 @@
-# Campus-Nex
+#Campus-Nex
 
-Campus Nex – Workflow for Students, Admin, and Companies
-The Campus Nex platform operates with three user profiles: Student, Admin (TPO), and Company (Recruiter). Each profile has distinct functionalities, ensuring a smooth and efficient Training & Placement process.
+📌 Campus Nex – Training & Placement Management System
+🌟 Overview
+Campus Nex is an AI-powered Training & Placement Management System designed to streamline recruitment processes in educational institutions. It provides an intelligent and automated platform for students, recruiters, and administrators, enhancing efficiency, transparency, and decision-making.
 
-🧑‍🎓 Student Workflow
-1️⃣ 🔐 Registration & Profile Setup
+The system leverages Java (Spring Boot), React, MySQL, and AWS to ensure a scalable, secure, and high-performance experience.
 
-Students sign up and complete their profiles with academic details, skills, and resume uploads.
-AI-driven resume screening provides feedback to improve their profile strength.
-2️⃣ 📢 Job & Internship Applications
+👥 User Profiles & Workflow
+Campus Nex supports three primary user profiles, each with distinct roles and responsibilities:
 
-Students browse job/internship listings posted by recruiters.
-They apply based on eligibility criteria set by companies.
-AI-driven job recommendations suggest suitable roles.
-3️⃣ 📅 Interview Scheduling & Notifications
+1️⃣ Student Profile
+Role: Job seeker (students looking for internships or placements)
 
-Shortlisted students receive automated interview invites.
-Integration with Google Calendar & Outlook ensures timely reminders.
-Students track application status via a personal dashboard.
-4️⃣ 📄 Document & Offer Letter Management
+🔹 Workflow:
 
-Once selected, students receive offer letters digitally.
-Secure document upload allows them to store important files.
-5️⃣ 📈 Training & Skill Enhancement
+Sign up & Profile Creation: Students register, add their resumes, and tag their skills.
+AI-Powered Job Recommendations: The system suggests jobs based on skills, academic records, and past applications.
+Apply for Jobs: Students apply for openings and track their application status.
+Interview Scheduling: Receive automated interview invitations with calendar integration.
+Performance Tracking: Access analytics on job applications, recruiter feedback, and placement probability.
+2️⃣ Recruiter (Company) Profile
+Role: Employers posting jobs, shortlisting candidates, and scheduling interviews.
 
-Students access mock interviews, AI-powered skill suggestions, and training sessions.
-Personalized learning paths help them upskill for better placement opportunities.
-🛠️ Admin (TPO) Workflow
-1️⃣ 🏫 Institute & Student Management
+🔹 Workflow:
 
-Admin (Training & Placement Officer) onboards students & verifies their details.
-Tracks student progress, applications, and interview results.
-2️⃣ 📢 Job Posting & Recruiter Management
+Sign up & Company Profile Setup: Register and add company details, job roles, and hiring criteria.
+Post Job Openings: Define job descriptions, eligibility criteria, and salary packages.
+Automated Candidate Screening: AI ranks applicants based on skill-matching and resume parsing.
+Interview Scheduling & Notifications: Set up interview slots and send automated invites.
+Candidate Selection & Offer Management: Shortlist candidates, extend offers, and manage hiring history.
+3️⃣ Admin (TPO - Training & Placement Officer) Profile
+Role: Manages system operations, oversees placements, and facilitates student-employer interactions.
 
-Admins manage company profiles & approve job postings.
-Provides insights on student placement trends.
-3️⃣ 📅 Placement Event & Interview Coordination
+🔹 Workflow:
 
-Schedules placement drives & campus hiring events.
-Monitors interview slots & ensures smooth hiring processes.
-4️⃣ 📊 Data & Analytics Dashboard
-
-Access to placement statistics, student progress, and recruiter engagement metrics.
-AI-driven placement success predictions help in strategic decision-making.
-5️⃣ 🔒 Security & Compliance
-
-Ensures role-based access control (RBAC) to maintain data privacy.
-Manages document verification and fraud detection.
-🏢 Company (Recruiter) Workflow
-1️⃣ 🏢 Company Profile Setup
-
-Companies register and set up their hiring profiles.
-Upload job roles, eligibility criteria, and hiring preferences.
-2️⃣ 📄 Job Posting & Candidate Shortlisting
-
-Post job listings with detailed descriptions.
-Use AI-powered filtering to shortlist candidates based on skills & academic scores.
-3️⃣ 📅 Interview Scheduling & Candidate Assessment
-
-Automated scheduling of technical & HR interviews.
-Integration with Google Meet, Zoom, and Microsoft Teams for online interviews.
-4️⃣ 📊 Hiring Analytics & Feedback
-
-Get insights into candidate performance and hiring trends.
-Provide feedback to students to enhance future placements.
-5️⃣ 📑 Offer Management & Documentation
-
-Issue offer letters, internship confirmations, and contracts digitally.
-AI-powered document verification to prevent fraud.
+Manage User Access: Approve student registrations and verify recruiter details.
+Monitor Placement Activities: Track job postings, student applications, and interview schedules.
+Data & Performance Analytics: Generate reports on placement success rates, company engagement, and student progress.
+Security & Compliance: Ensure secure access, monitor suspicious activity, and maintain system integrity.
+🚀 Features & Functionalities
+🔹 1. User Management
+Role-based access control (Students, Recruiters, Admins)
+JWT-based authentication & session management
+Profile management with skill-based tagging & resume uploads
+🔹 2. AI-Powered Job & Internship Portal
+Companies post job openings & set eligibility criteria
+Students apply for jobs & receive real-time status updates
+AI-based job recommendations based on skills & academic history
+🔹 3. Resume & Skill Evaluation
+AI-driven resume screening & automated ranking
+Skill-matching algorithm for candidate-job fit
+Real-time resume parsing & keyword extraction
+🔹 4. Automated Scheduling & Interview Management
+AI-powered interview scheduling to minimize manual effort
+Google Calendar & Outlook integration for reminders
+Live interview panel management for real-time assessments
+🔹 5. Company & Recruiter Dashboard
+Hiring history, feedback tracking, & engagement analytics
+Automated shortlisting of candidates based on predefined criteria
+Data-driven insights for better recruitment strategies
+🔹 6. Cloud-Based Infrastructure & Scalability
+AWS-hosted platform ensuring high availability & security
+Spring Boot backend, React frontend, & MySQL database
+Optimized database queries for improved performance
+🔹 7. Security & Compliance
+End-to-end encryption for data protection
+Role-based access controls for secure authentication
+Automated data backup & recovery mechanisms
+🛠️ Technology Stack
+Category	Technology
+Backend	Java, Spring Boot, Hibernate
+Frontend	React, HTML, CSS
+Database	MySQL, PostgreSQL
+Cloud Services	AWS (EC2, S3, RDS)
+Security	JWT Authentication, OAuth 2.0
+AI & Analytics	Machine Learning for Resume Screening & Job Recommendations
