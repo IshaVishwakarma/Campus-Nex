@@ -1,0 +1,78 @@
+/* Style for the login form */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    width: 400px; /* Enlarged width */
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 30px; /* Increased padding */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px; /* Increased margin */
+    color: #666; /* Changed color to grey */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: calc(100% - 20px); /* Adjusted width to account for padding */
+    padding: 10px;
+    margin-bottom: 20px; /* Increased margin */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px; /* Increased padding */
+    background-color: #555; /* Changed default background color to dark grey */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #999; /* Changed hover color to lighter grey */
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+/* Style for buttons */
+
+.buttons-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons-container button {
+    margin-right: 10px;
+    padding: 15px 20px; /* Increased padding */
+    background-color: #555; /* Changed default background color to dark grey */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.buttons-container button:hover {
+    background-color: #999; /* Changed hover color to lighter grey */
+}

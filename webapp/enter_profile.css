@@ -1,0 +1,46 @@
+/* enter_profile.css */
+
+body {
+    background-color: #fff;
+    color: #444;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #000;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+input[type="text"],
+input[type="file"],
+input[type="number"],
+input[type="checkbox"],
+input[type="submit"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #0080ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #005cb2;
+}

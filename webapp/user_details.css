@@ -1,0 +1,64 @@
+/* Style the sidebar */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #333;
+    padding-top: 20px;
+    color: #fff;
+}
+
+/* Style the sidebar links */
+.sidebar a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+
+/* Change the color of the sidebar links on hover */
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Style the content */
+.content {
+    margin-left: 270px; /* Same as the width of the sidebar + 20px */
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Style the sections */
+.section {
+    margin-bottom: 20px; /* Add space between sections */
+}
+
+.section h2 {
+    margin-bottom: 10px;
+}
+
+.section p {
+    margin-bottom: 0;
+}
+
+/* Style the logout button */
+.sidebar form {
+    margin-top: auto; /* Pushes the logout button to the bottom */
+}
+
+.sidebar input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f; /* Red color for logout button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar input[type="submit"]:hover {
+    background-color: #c9302c; /* Darker red color on hover */
+}
