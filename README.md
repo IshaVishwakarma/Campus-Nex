@@ -19,6 +19,7 @@ AI-Powered Job Recommendations: The system suggests jobs based on skills, academ
 Apply for Jobs: Students apply for openings and track their application status.
 Interview Scheduling: Receive automated interview invitations with calendar integration.
 Performance Tracking: Access analytics on job applications, recruiter feedback, and placement probability.
+
 2️⃣ Recruiter (Company) Profile
 Role: Employers posting jobs, shortlisting candidates, and scheduling interviews.
 
@@ -29,6 +30,7 @@ Post Job Openings: Define job descriptions, eligibility criteria, and salary pac
 Automated Candidate Screening: AI ranks applicants based on skill-matching and resume parsing.
 Interview Scheduling & Notifications: Set up interview slots and send automated invites.
 Candidate Selection & Offer Management: Shortlist candidates, extend offers, and manage hiring history.
+
 3️⃣ Admin (TPO - Training & Placement Officer) Profile
 Role: Manages system operations, oversees placements, and facilitates student-employer interactions.
 
