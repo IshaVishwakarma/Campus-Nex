@@ -1,58 +1,70 @@
 # Campus-Nex
 
-Campus Nex – Training and Placement Management System
-🚀 Overview
-Campus Nex is an advanced Training and Placement Management System designed to streamline and enhance placement processes in educational institutions. Built using Spring Boot and AWS, the platform optimizes student-company interactions, automates workflows, and ensures data-driven decision-making.
+Campus Nex – Workflow for Students, Admin, and Companies
+The Campus Nex platform operates with three user profiles: Student, Admin (TPO), and Company (Recruiter). Each profile has distinct functionalities, ensuring a smooth and efficient Training & Placement process.
 
-🔑 Key Features & Functionalities
-1️⃣ User Management
-✅ Role-based access control (Admin, Students, TPOs, Recruiters)
-✅ Secure JWT-based authentication and session management
-✅ Profile management with resume uploads & skill-based tagging
+🧑‍🎓 Student Workflow
+1️⃣ 🔐 Registration & Profile Setup
 
-2️⃣ Job & Internship Portal
-✅ Companies can post job openings, define eligibility criteria & manage applications
-✅ Students can apply for jobs, track application status & receive notifications
-✅ AI-powered job recommendation system based on skills & academic records
+Students sign up and complete their profiles with academic details, skills, and resume uploads.
+AI-driven resume screening provides feedback to improve their profile strength.
+2️⃣ 📢 Job & Internship Applications
 
-3️⃣ Resume & Skill Evaluation
-✅ AI-driven resume screening for automated candidate assessment
-✅ Skill-matching algorithm to rank candidates based on job requirements
-✅ Real-time resume parsing and keyword extraction for recruiter efficiency
+Students browse job/internship listings posted by recruiters.
+They apply based on eligibility criteria set by companies.
+AI-driven job recommendations suggest suitable roles.
+3️⃣ 📅 Interview Scheduling & Notifications
 
-4️⃣ Automated Scheduling & Interview Management
-✅ AI-powered interview scheduling to reduce manual effort
-✅ Google Calendar & Outlook integration for interview reminders
-✅ Live interview panel management for real-time candidate assessment
+Shortlisted students receive automated interview invites.
+Integration with Google Calendar & Outlook ensures timely reminders.
+Students track application status via a personal dashboard.
+4️⃣ 📄 Document & Offer Letter Management
 
-5️⃣ Company & Recruiter Dashboard
-✅ Company profiles with hiring history, feedback & engagement metrics
-✅ Automated shortlisting of candidates based on predefined filters
-✅ Data-driven insights for recruiters to improve hiring strategies
+Once selected, students receive offer letters digitally.
+Secure document upload allows them to store important files.
+5️⃣ 📈 Training & Skill Enhancement
 
-6️⃣ Cloud-Based Infrastructure & Scalability
-✅ Deployed on AWS for high availability, scalability & security
-✅ Uses Spring Boot for backend, React for frontend, and MySQL for data storage
-✅ Optimized database queries to enhance system efficiency & reduce response time
+Students access mock interviews, AI-powered skill suggestions, and training sessions.
+Personalized learning paths help them upskill for better placement opportunities.
+🛠️ Admin (TPO) Workflow
+1️⃣ 🏫 Institute & Student Management
 
-7️⃣ Document & Certification Management
-✅ Secure document upload for offer letters, certificates & contracts
-✅ AI-powered document verification for fraud detection & validation
+Admin (Training & Placement Officer) onboards students & verifies their details.
+Tracks student progress, applications, and interview results.
+2️⃣ 📢 Job Posting & Recruiter Management
 
-8️⃣ Training & Development Module
-✅ Skill enhancement programs, workshops & online learning integration
-✅ AI-powered learning path recommendations based on career goals
-✅ Mock interview preparation with real-time feedback
+Admins manage company profiles & approve job postings.
+Provides insights on student placement trends.
+3️⃣ 📅 Placement Event & Interview Coordination
 
-9️⃣ Security & Compliance
-✅ End-to-end encryption for data protection
-✅ Role-based access control (RBAC) to prevent unauthorized access
-✅ Automated data backup & recovery mechanisms
+Schedules placement drives & campus hiring events.
+Monitors interview slots & ensures smooth hiring processes.
+4️⃣ 📊 Data & Analytics Dashboard
 
-🛠️ Technology Stack
-Backend: Java, Spring Boot, Hibernate
-Frontend: React, HTML, CSS
-Database: MySQL, PostgreSQL
-Cloud Services: AWS (EC2, S3, RDS)
-Security: JWT Authentication, OAuth 2.0, Role-Based Access Control
-AI & Analytics: Machine Learning for Resume Screening & Placement Prediction
+Access to placement statistics, student progress, and recruiter engagement metrics.
+AI-driven placement success predictions help in strategic decision-making.
+5️⃣ 🔒 Security & Compliance
+
+Ensures role-based access control (RBAC) to maintain data privacy.
+Manages document verification and fraud detection.
+🏢 Company (Recruiter) Workflow
+1️⃣ 🏢 Company Profile Setup
+
+Companies register and set up their hiring profiles.
+Upload job roles, eligibility criteria, and hiring preferences.
+2️⃣ 📄 Job Posting & Candidate Shortlisting
+
+Post job listings with detailed descriptions.
+Use AI-powered filtering to shortlist candidates based on skills & academic scores.
+3️⃣ 📅 Interview Scheduling & Candidate Assessment
+
+Automated scheduling of technical & HR interviews.
+Integration with Google Meet, Zoom, and Microsoft Teams for online interviews.
+4️⃣ 📊 Hiring Analytics & Feedback
+
+Get insights into candidate performance and hiring trends.
+Provide feedback to students to enhance future placements.
+5️⃣ 📑 Offer Management & Documentation
+
+Issue offer letters, internship confirmations, and contracts digitally.
+AI-powered document verification to prevent fraud.
